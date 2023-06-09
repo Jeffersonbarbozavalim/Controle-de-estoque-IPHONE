@@ -17,20 +17,23 @@ body{
     
     margin-top: -4%;
     align-items: center;
-    margin-left: 70%;
+    margin-left: 62%;
     
 }
 
 .cabecalho input{
-    
+    color: black;
+    border-color: orange;
+    background-color: orange;
+    font-family: Georgia;
     height: 30px;
-    width: 100px;
+    width: 115px;
     cursor: pointer;
 }
 
 .cabecalho h1{
+    margin-left: 30%;
     font-family: Georgia;
-    text-align: center;
     margin-top: 0.5%;
 }
 
