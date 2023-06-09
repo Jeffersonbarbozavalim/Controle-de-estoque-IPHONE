@@ -1,27 +1,52 @@
-.body{
-    margin: 0px;
-    padding: 0px;
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.cabecalho{
+    margin-top: -0.6%;
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    background-color: rgba(37, 187, 34, 0.612);
 }
 
 
-
-
-.cabecalho {
-    background-color: rgb(1, 243, 13);
-    opacity: 0.7;
-    margin-left: 8px;
-    font-size: 25px;
-    margin-top: -10px;
-    font-family: Tahoma ;
-    color: black;
-    height: 50px;
-    display: flex;
+.cabecalho nav {
+    
+    margin-top: -4%;
     align-items: center;
-    justify-content: center;
+    margin-left: 70%;
     
 }
 
+.cabecalho input{
+    
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.cabecalho h1{
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
 .img{
-    margin-left: 260px;
+    
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.fundo img{
+    position: fixed;
+    opacity: 0.8;
+    margin-left:0%;
+    margin-top: 3.5%;
+    
+   
 }
 
