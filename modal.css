@@ -54,6 +54,11 @@
             margin-left: 26%;
         }
 
+        #qtde{
+            text-align: center;
+            margin-left: 26%;
+        }
+
         #cds{
             cursor: pointer;
             margin-left: 40%;

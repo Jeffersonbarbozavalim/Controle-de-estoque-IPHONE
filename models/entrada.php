@@ -5,6 +5,7 @@
 
         private $modelo;
         private $valor;
+        private $qtde;
         private $data;
 
 
@@ -22,6 +23,13 @@
             public function getvalor(){
                 return $this -> valor;
             }
+            public function setqtde($qtde){
+                $this -> qtde =$qtde;
+            }
+
+            public function getqtde(){
+                return $this -> qtde;
+            }
             public function setdata($data){
                 $this -> data =$data;
             }
@@ -31,8 +39,8 @@
             }
             
 
-            public function insert ($modelo,$valor,$data){
-                $sql = "INSERT INTO entrada (modelo,valor,data) VALUES ('".$modelo."','".$valor."','".$data."')";
+            public function insert ($modelo,$valor,$qtde,$data){
+                $sql = "INSERT INTO entrada (modelo,valor,qtde,data) VALUES ('".$modelo."','".$valor."','".$qtde."','".$data."')";
 
                     $db = new db();
                     $conn = $db->conectar();
