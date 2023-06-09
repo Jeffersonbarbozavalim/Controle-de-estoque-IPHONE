@@ -39,13 +39,11 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h3>Cadastre as entradas</h3>
-            <form>
-                <!-- Coloque aqui os campos do seu formulário -->
-                
-                <input type="text" id="nome" name="nome" required placeholder="Modelo"><br><br>
 
-                
-                <input type="number" id="valor" name="email" required placeholder="Valor de compra"><br><br>
+            <form action="controller/insertcontroller.php" method="post">
+                              
+                <input type="text" id="nome" name ="modelo" required placeholder="Modelo"><br><br>    
+                <input type="decimal" id="valor" name ="valor" required placeholder="Valor de compra"><br><br>
 
                 <input type="submit" value="Cadastrar" id="cds">
             </form>
