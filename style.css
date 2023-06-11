@@ -2,6 +2,18 @@ body{
     margin: 0%;
     padding: 0%;
     overflow: hidden;
+    background-image: url('img/apple-1867461.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
 }
 
 .cabecalho{
@@ -37,19 +49,54 @@ body{
     margin-top: 0.5%;
 }
 
-.img{
+.img img{
     
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 150px;
+    height: 150px;
     position: absolute;
     margin-top: 1%;
     margin-left: 1%;
 }
 
-.fundo img{
-    position: fixed;
-    opacity: 0.8;
-    margin-left:0%;
-    margin-top: 3.5%;
-    
-   
+@media (max-width: 300px) {
+    /* Estilos para telas menores que 768px */
+    body {
+        background-attachment: scroll;
+    }
+
 }
 
+@media screen and (max-width: 320px){
+
+    .img img{
+        
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 1%;
+    }
+
+    .cabecalho h1{
+        margin-left: 30%;
+        font-family: Georgia;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+
+    .cabecalho input{
+        margin-top: 20%;
+        color: black;
+        border-color: orange;
+        background-color: orange;
+        font-family: Georgia;
+        height: 30px;
+        width: 115px;
+        cursor: pointer;
+    }
+
+
+}
