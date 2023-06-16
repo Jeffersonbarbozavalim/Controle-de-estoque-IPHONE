@@ -47,7 +47,7 @@
             <span class="close" onclick="closeModal1()">&times;</span>
             <h3>Cadastre as Vendas</h3>
             <?php
-$conexao = new mysqli("localhost","root","","import");
+$conexao = new mysqli("localhost","root","admin","import");
 ?>
             <form action="controller/outputcontroller.php" method="post">
                 
@@ -100,7 +100,7 @@ $conexao = new mysqli("localhost","root","","import");
                     </br>
       <tbody>
       <?php
-    $strcon = mysqli_connect ("localhost","root","","import") or die ('Erro ao conectar ao banco');
+    $strcon = mysqli_connect ("localhost","root","admin","import") or die ('Erro ao conectar ao banco');
             $sql ="SELECT * FROM estoque  ORDER BY modelo ";
             $resultado = mysqli_query($strcon,$sql) or die ("Erro ao encontrar");
             while ($registro = mysqli_fetch_array($resultado)){

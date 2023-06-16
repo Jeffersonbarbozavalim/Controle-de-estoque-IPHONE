@@ -64,6 +64,150 @@
             margin-left: 40%;
         }
 
+        @media screen and (max-width: 1024px){
+            .modal-content {
+            
+                background-color: #fefefe;
+                margin-top: 25%;
+                margin-left: 32%;
+                padding: 20px;
+                border: 4px solid black;
+                width: 80%;
+                max-width: 400px;
+                border-radius: 50px;
+            }
+            .modal-content h3{
+                margin-left: 22%;
+            }
+
+            #nome{
+                text-align: center;
+                margin-left: 22%;
+            }
+    
+            #valor{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #qtde{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #cds{
+                cursor: pointer;
+                margin-left: 0%;
+            }
+        }
+        @media screen and (max-width: 768px){
+            .modal-content {
+            
+                background-color: #fefefe;
+                margin-top: 40%;
+                margin-left: 25%;
+                padding: 20px;
+                border: 4px solid black;
+                width: 80%;
+                max-width: 400px;
+                border-radius: 50px;
+            }
+            .modal-content h3{
+                margin-left: 22%;
+            }
+
+            #nome{
+                text-align: center;
+                margin-left: 22%;
+            }
+    
+            #valor{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #qtde{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #cds{
+                cursor: pointer;
+                margin-left: 0%;
+            }
+        }
+        @media screen and (max-width: 425px){
+            .modal-content {
+            
+                background-color: #fefefe;
+                margin-top: 70%;
+                margin-left: 2.5%;
+                padding: 20px;
+                border: 4px solid black;
+                width: 80%;
+                max-width: 400px;
+                border-radius: 50px;
+            }
+            .modal-content h3{
+                margin-left: 13%;
+            }
+
+            #nome{
+                text-align: center;
+                margin-left: 22%;
+            }
+    
+            #valor{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #qtde{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #cds{
+                cursor: pointer;
+                margin-left: 0%;
+            }
+        }
+        @media screen and (max-width: 375px){
+            .modal-content {
+            
+                background-color: #fefefe;
+                margin-top: 70%;
+                margin-left: 2.5%;
+                padding: 20px;
+                border: 4px solid black;
+                width: 80%;
+                max-width: 400px;
+                border-radius: 50px;
+            }
+            .modal-content h3{
+                margin-left: 13%;
+            }
+
+            #nome{
+                text-align: center;
+                margin-left: 22%;
+            }
+    
+            #valor{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #qtde{
+                text-align: center;
+                margin-left: 26%;
+            }
+    
+            #cds{
+                cursor: pointer;
+                margin-left: 0%;
+            }
+        }
         @media screen and (max-width: 320px){
             .modal-content {
             

@@ -27,7 +27,7 @@ body{
 
 .cabecalho nav {
     
-    margin-top: -4%;
+    margin-top: -11.5%;
     align-items: center;
     margin-left: 62%;
     
@@ -66,9 +66,150 @@ body{
     body {
         background-attachment: scroll;
     }
-
+    
 }
+@media screen and (max-width: 1024px){
 
+    .cabecalho nav {
+    
+        margin-top: -7%;
+        align-items: center;
+        margin-left: 50%;
+        
+    }
+    
+    .img img{
+        
+        height: 90px;
+        width: 90px;
+        position: absolute;
+            margin-top: 0%;
+            margin-left: 1%;
+        }
+        
+        .cabecalho h1{
+            margin-left: 35%;
+            font-family: Georgia;
+            margin-top: 1%;
+            font-size: 30px;
+        }
+        
+        .cabecalho input{
+            margin-top: 20%;
+            color: black;
+            border-color: orange;
+            background-color: orange;
+            font-family: Georgia;
+            height: 30px;
+            width: 115px;
+            cursor: pointer;
+        }
+        
+        
+    }
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .cabecalho nav {
+    
+        margin-top: -14%;
+        align-items: center;
+        margin-left: 22%;
+        
+    }
+    
+    .img img{
+        
+        height: 90px;
+        width: 90px;
+        position: absolute;
+            margin-top: 0%;
+            margin-left: 1%;
+        }
+        
+        .cabecalho h1{
+            margin-left: 30%;
+            font-family: Georgia;
+            margin-top: 1%;
+            font-size: 30px;
+        }
+        
+        .cabecalho input{
+            margin-top: 20%;
+            color: black;
+            border-color: orange;
+            background-color: orange;
+            font-family: Georgia;
+            height: 30px;
+            width: 115px;
+            cursor: pointer;
+        }
+        
+        
+    }
+    
+    .cabecalho input{
+        margin-top: 20%;
+        color: black;
+        border-color: orange;
+        background-color: orange;
+        font-family: Georgia;
+        height: 30px;
+        width: 115px;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 425px){
+        
+        .img img{
+            
+            height: 90px;
+            width: 90px;
+            position: absolute;
+            margin-top: 0%;
+            margin-left: 1%;
+        }
+        
+        .cabecalho h1{
+            margin-left: 30%;
+            font-family: Georgia;
+            margin-top: 3%;
+            font-size: 20px;
+        }
+        
+        .cabecalho input{
+            margin-top: 20%;
+            color: black;
+            border-color: orange;
+            background-color: orange;
+            font-family: Georgia;
+            height: 30px;
+            width: 115px;
+            cursor: pointer;
+        }
+        
+        
+    }
+    @media screen and (max-width: 375px){
+    
+        .img img{
+            
+            height: 90px;
+            width: 90px;
+            position: absolute;
+            margin-top: 0%;
+            margin-left: 1%;
+        }
+    
+        .cabecalho h1{
+            margin-left: 30%;
+            font-family: Georgia;
+            margin-top: 3%;
+            font-size: 20px;
+        }
+}
 @media screen and (max-width: 320px){
 
     .img img{

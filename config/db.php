@@ -4,7 +4,7 @@
         public function conectar(){
             $servename = "localhost";
             $username = "root";
-            $password = "";
+            $password = "admin";
             $dbname = "import";
 
                 $con = new mysqli($servename,$username,$password,$dbname);

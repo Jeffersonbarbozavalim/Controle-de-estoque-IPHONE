@@ -70,6 +70,132 @@
     margin-left: 40%;
 }
 
+@media screen and (max-width: 768px){
+    
+    .modal-content1 {
+    
+        background-color: #fefefe;
+        margin-top: 40%;
+        margin-left: 25%;
+        padding: 20px;
+        border: 4px solid black;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 50px;
+    }
+    .modal-content1 h3{
+        margin-left: 25%;
+    }
+    #nome{
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    #option{
+        width: 175px;
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    #valor{
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    #qtde{
+        text-align: center;
+        margin-left: 25%;
+    }
+    
+    #cds{
+        cursor: pointer;
+        margin-left: 37%;
+    }
+}
+@media screen and (max-width: 425px){
+    
+    .modal-content1 {
+    
+        background-color: #fefefe;
+        margin-top: 70%;
+        margin-left: 2.5%;
+        padding: 20px;
+        border: 4px solid black;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 50px;
+    }
+    .modal-content1 h3{
+        margin-left: 13%;
+    }
+    #nome{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #option{
+        width: 170px;
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #valor{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #qtde{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #cds{
+        cursor: pointer;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 375px){
+    
+    .modal-content1 {
+    
+        background-color: #fefefe;
+        margin-top: 70%;
+        margin-left: 2.5%;
+        padding: 20px;
+        border: 4px solid black;
+        width: 80%;
+        max-width: 400px;
+        border-radius: 50px;
+    }
+    .modal-content1 h3{
+        margin-left: 13%;
+    }
+    #nome{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #option{
+        width: 170px;
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #valor{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #qtde{
+        text-align: center;
+        margin-left: 17%;
+    }
+    
+    #cds{
+        cursor: pointer;
+        margin-left: 35%;
+    }
+}
 @media screen and (max-width: 320px){
     
     .modal-content1 {
