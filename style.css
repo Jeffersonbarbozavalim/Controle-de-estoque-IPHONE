@@ -27,9 +27,9 @@ body{
 
 .cabecalho nav {
     
-    margin-top: -11.5%;
+    margin-top: -9%;
     align-items: center;
-    margin-left: 62%;
+    margin-left: 53.5%;
     
 }
 
@@ -44,7 +44,7 @@ body{
 }
 
 .cabecalho h1{
-    margin-left: 30%;
+    margin-left: 35%;
     font-family: Georgia;
     margin-top: 0.5%;
 }
@@ -72,9 +72,9 @@ body{
 
     .cabecalho nav {
     
-        margin-top: -7%;
+        margin-top: -12%;
         align-items: center;
-        margin-left: 50%;
+        margin-left: 41%;
         
     }
     
@@ -162,6 +162,15 @@ body{
         cursor: pointer;
     }
     @media screen and (max-width: 425px){
+
+        .cabecalho nav {
+    
+            margin-top: -2%;
+            align-items: center;
+            margin-left: 65%;
+            padding: 10px;
+            
+        }
         
         .img img{
             
@@ -193,6 +202,15 @@ body{
         
     }
     @media screen and (max-width: 375px){
+
+        .cabecalho nav {
+    
+            margin-top: 4%;
+            align-items: center;
+            margin-left: 55%;
+            padding: 10px;
+            
+        }
     
         .img img{
             
@@ -212,6 +230,15 @@ body{
 }
 @media screen and (max-width: 320px){
 
+    .cabecalho nav {
+    
+        margin-top: 4%;
+        align-items: center;
+        margin-left: 55%;
+        padding: 10px;
+        
+    }
+
     .img img{
         
         height: 90px;
@@ -229,7 +256,7 @@ body{
     }
 
     .cabecalho input{
-        margin-top: 20%;
+        margin-top: 25%;
         color: black;
         border-color: orange;
         background-color: orange;

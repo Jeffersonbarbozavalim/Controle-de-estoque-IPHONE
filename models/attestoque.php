@@ -1,14 +1,22 @@
 <?php
     require_once '../config/db.php';
     
-    class Entrada{
+    class Attestoque{
 
+        private $identrada;
         private $modelo;
         private $valor;
         private $qtde;
-        private $data;
+        
 
 
+            public function setidentrada($identrada){
+                $this -> identrada =$identrada;
+            }
+
+            public function getidentrada(){
+                return $this -> identrada;
+            }
             public function setmodelo($modelo){
                 $this -> modelo =$modelo;
             }
@@ -30,25 +38,19 @@
             public function getqtde(){
                 return $this -> qtde;
             }
-            public function setdata($data){
-                $this -> data =$data;
-            }
-
-            public function getdata(){
-                return $this -> data;
-            }
+            
             
 
-            public function insert ($modelo,$valor,$qtde,$data){
-                $sql = "INSERT INTO entrada (modelo,valor,qtde,data) VALUES ('".$modelo."','".$valor."','".$qtde."','".$data."')";
+            public function insert ($identrada,$modelo,$valor,$qtde){
+                $sql = "INSERT INTO attestoque (identrada,modelo,valor,qtde) VALUES ('".$identrada."','".$modelo."','".$valor."','".$qtde."')";
 
                     $db = new db();
                     $conn = $db->conectar();
                     
                         if($conn->query($sql)==true){
-                            echo '<p class="mensagem-sucesso">Cadastrada com Sucesso</p>';
+                            echo '<p class="mensagem-sucesso">Atualizado com Sucesso</p>';
                         }else{
-                            echo '<p class="mensagem-sucesso">Erro ao Inserir</p>';
+                            echo '<p class="mensagem-sucesso">Erro ao atualizar</p>';
                         }
             }
     }
